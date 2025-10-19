@@ -1,0 +1,194 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #93c2f8; /* Pink muda sebagai latar belakang */
+}
+
+header, footer {
+  background-color: #5693da; /* Pink tua untuk header dan footer */
+  color: #ffffff; /* Teks putih untuk kontras */
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Link navigasi berwarna hitam */
+nav ul li a {
+  color: rgb(71, 237, 243);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #b4cfe9;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #1884c2; /* Garis tabel berwarna pink tua */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Garis tabel */
+table, th, td {
+  border: 1px solid #1384b8; /* Pink tua untuk garis tabel */
+}
+
+/* Warna judul kolom */
+th {
+  background-color: #1864ac;  /* Pink muda untuk judul kolom */
+  color: #0e1a88; /* Pink yang lebih tua untuk teks judul kolom */
+  padding: 10px;
+}
+
+/* Warna isi tabel */
+td {
+  background-color: #a4e7f8;  /* Pink yang lebih muda untuk isi tabel */
+  padding: 10px;
+}
+
+/* Efek hover (sorot saat mouse diarahkan) */
+tr:hover td {
+  background-color: #629cc4; /* Pink yang lebih tua saat hover */
+}
+
+/* Container form */
+.contact-form {
+  background: #fff; /* Latar belakang putih */
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 500px; /* Lebar form */
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.contact-form:hover {
+  transform: scale(1.02); /* sedikit membesar saat hover */
+}
+
+/* Judul form */
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0c47e9; /* Pink tua untuk judul form */
+  font-weight: 600;
+}
+
+/* Label */
+.contact-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 500;
+  color: #475ec4; /* Pink tua untuk label */
+}
+
+/* Input dan textarea */
+.contact-form input [type="text"], 
+.contact-form input[type="email"], 
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #8faff4; /* Pink muda untuk border */
+  border-radius: 12px;
+  background-color: #b7bce9; /* Pink yang lebih muda untuk latar belakang */
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+  border-color: #1e4de9; /* Pink tua untuk fokus */
+  box-shadow: 0 0 8px rgba(30, 61, 233, 0.4);
+  outline: none;
+  background: #fff;
+}
+
+/* Tombol submit */
+.contact-form button[type="submit"] {
+  background: linear-gradient(to right, #3d1ee9, #6288f0, #8fb2f4); /* Gradasi pink */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px; /* Lebih membulat */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.3s ease;
+  margin-top: 10px; /* Jarak dengan textarea */
+}
+
+.contact-form button[type="submit"]:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* --- Aesthetic ABOUT page --- */
+.about-card {
+  background: linear-gradient(135deg,#fff0f5, #f8bbd0); /* gradasi lembut */
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-card h2 {
+  margin-top: 15px;
+  color: #880e4f; /* Pink tua untuk judul */
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about-card p {
+  margin: 15px 0;
+  color:  #880e4f; /* Pink tua untuk teks */
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Style untuk foto profil di halaman About */
+.about-card .profile-image {
+  width: 250px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  height: 250px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  border-radius: 50%; /* Membuat bingkai bundar */
+  object-fit: cover; /* Memastikan gambar mengisi bingkai dengan baik */
+}
+
+.highlight {
+  background: linear-gradient(120deg, #1e6fe9, #8f9ef4); /* Gradasi pink */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
